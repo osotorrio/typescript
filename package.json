@@ -1,0 +1,23 @@
+{
+    "name": "typescript_cheatsheet",
+    "version": "1.0.0",
+    "description": "Typescript cheatsheet",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/osotorrio/typescript.git"
+    },
+    "keywords": [
+        "typescript",
+        "javascript"
+    ],
+    "author": "Oscar Sotorrio",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/osotorrio/typescript/issues"
+    },
+    "homepage": "https://github.com/osotorrio/typescript#readme"
+}
