@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "outDir": "dist/"
+        "outDir": "dist/",
+        "strictNullChecks": false
     },
-    "files": ["src/index.ts"]
+    "files": ["src/basic_types.ts"]
 }
