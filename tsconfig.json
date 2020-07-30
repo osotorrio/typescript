@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "outDir": "dist/",
-        "strictNullChecks": false
+        "strictNullChecks": true,
+        "removeComments": false
     },
     "files": ["src/basic_types.ts"]
 }

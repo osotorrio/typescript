@@ -33,3 +33,15 @@ crazyArray[0] = 55;
 function warnUser() {
     console.log("This is my warning message");
 }
+// null, undefined and object
+// never
+function error(message) {
+    throw new Error(message);
+}
+function infiniteLoop() {
+    while (true) { }
+}
+// type assertions
+var someValue = "this is a string";
+var strLength1 = someValue.length;
+var strLength2 = someValue.length;
