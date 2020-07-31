@@ -4,5 +4,5 @@
         "strictNullChecks": true,
         "removeComments": false
     },
-    "files": ["src/basic_types.ts"]
+    "files": ["src/basic_types.ts", "src/interfaces.ts"]
 }
