@@ -44,3 +44,12 @@ function logHerSquare(square) {
     }
 }
 logHerSquare(herSquare);
+/*  Excess Property Checks
+    https://www.typescriptlang.org/docs/handbook/interfaces.html#excess-property-checks
+
+*/
+// Function Types
+var isTheSumeEven;
+isTheSumeEven = function (x, y) {
+    return (x + y) % 2 === 0;
+};

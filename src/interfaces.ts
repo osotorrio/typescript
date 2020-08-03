@@ -69,3 +69,19 @@ function logHerSquare(square: IHerSquare) {
 }
 
 logHerSquare(herSquare);
+
+/*  Excess Property Checks
+    https://www.typescriptlang.org/docs/handbook/interfaces.html#excess-property-checks
+
+*/
+
+// Function Types
+let isTheSumeEven: ICheckNumbers;
+
+interface ICheckNumbers {
+    (a: number, b: number): boolean;
+}
+
+isTheSumeEven = function (x: number, y: number): boolean {
+    return (x + y) % 2 === 0;
+};
