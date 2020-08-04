@@ -70,7 +70,9 @@ function logHerSquare(square: IHerSquare) {
 
 logHerSquare(herSquare);
 
-/*  Excess Property Checks
+/*  
+
+    Excess Property Checks
     https://www.typescriptlang.org/docs/handbook/interfaces.html#excess-property-checks
 
 */
@@ -85,3 +87,26 @@ interface ICheckNumbers {
 isTheSumeEven = function (x: number, y: number): boolean {
     return (x + y) % 2 === 0;
 };
+
+// Indexable Types
+let players: IArrayPlayers;
+
+interface IArrayPlayers {
+    [index: number]: string;
+}
+
+players = ["Kasparov", "Carlsen", "Karpov"];
+
+// Class Types
+class Clock implements IClockInterface {
+    currentTime: Date = new Date();
+
+    setTime(datetime: Date) {
+        this.currentTime = datetime;
+    }
+}
+
+interface IClockInterface {
+    currentTime: Date;
+    setTime(datetime: Date): void;
+}

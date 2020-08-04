@@ -44,7 +44,9 @@ function logHerSquare(square) {
     }
 }
 logHerSquare(herSquare);
-/*  Excess Property Checks
+/*
+
+    Excess Property Checks
     https://www.typescriptlang.org/docs/handbook/interfaces.html#excess-property-checks
 
 */
@@ -53,3 +55,16 @@ var isTheSumeEven;
 isTheSumeEven = function (x, y) {
     return (x + y) % 2 === 0;
 };
+// Indexable Types
+var players;
+players = ["Kasparov", "Carlsen", "Karpov"];
+// Class Types
+var Clock = /** @class */ (function () {
+    function Clock() {
+        this.currentTime = new Date();
+    }
+    Clock.prototype.setTime = function (datetime) {
+        this.currentTime = datetime;
+    };
+    return Clock;
+}());
