@@ -1,0 +1,8 @@
+{
+    "stores": [
+        {
+            "storeId": 123,
+            "name": "something"
+        }
+    ]
+}
